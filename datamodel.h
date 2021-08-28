@@ -20,6 +20,13 @@ class Product{
    string getDisplayName(){
    	return name+" : Rs "+ to_string(price)+'\n';
    }
+
+   string getDisplaywithID(){
+    return to_string(id)+". "+name+" : Rs "+ to_string(price)+'\n';
+   }
+   int getShortName(){
+    return id;
+   }
   friend class Item;
 };
 
