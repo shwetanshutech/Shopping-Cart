@@ -22,10 +22,9 @@ Product* chooseProduct(){
     cout<<productlist<<endl;
    cout<<"-------------------------------\n";
    cout<<"Enter Serial Number to add product to the Cart=> ";
-    int choice;
-    cin>>choice;
+    int choice; cin>>choice;
     for(int i=0;i<allProducts.size();i++){
-        if(allProducts[i].getShortName()==choice){
+        if(allProducts[i].getIdentity()==choice){
             return &allProducts[i];
         }
     }
