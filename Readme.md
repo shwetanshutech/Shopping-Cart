@@ -12,7 +12,9 @@
 |  Name     |  Quantity |  Total    | 
 |  Price    |  Price    |   ---     |  
 
+### Preview
 
+![Preview of App](./demo1.PNG)
 
 #### Product ( 1 ⇨ 1) Item (N ⇨ 1) Cart 
 
